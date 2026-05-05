@@ -32,7 +32,7 @@ Choix entre Français et Anglais.
 
 ---
 
-### 2. Questionnaire
+### 2. Écran de bienvenue
 
 ![Questionnaire](./docs/screenshots/02-questionnaire.png)
 
@@ -40,23 +40,16 @@ Questions structurées avec icônes et options.
 
 ---
 
-### 3. Écran de bienvenue
+### 3. Questionnaire
 
 ![Welcome Screen](./docs/screenshots/03-bienvenue.png)
 
 Présentation de l'application et mise en garde importante.
 
----
-
-### 4. Récapitulatif
-
-![Recap](./docs/screenshots/04-recap.png)
-
-Résumé des réponses + consentement IA + informations supplémentaires optionnelles.
 
 ---
 
-### 5. Analyse IA (optionnel)
+### 4. Analyse IA (optionnel)
 
 ![AI Analysis](./docs/screenshots/05-analyse-ia.png)
 
@@ -64,7 +57,7 @@ Analyse avec Mistral AI (si consentement).
 
 ---
 
-### 6. Résultat
+### 5. Résultat
 
 ![Results](./docs/screenshots/07-resultat.png)
 
