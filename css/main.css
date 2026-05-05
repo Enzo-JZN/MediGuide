@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-2xl shadow-card p-8;
+  }
+
+  .btn-primary {
+    @apply w-full bg-brand-500 text-white rounded-xl py-3.5 font-semibold text-sm transition-all hover:bg-brand-600 hover:-translate-y-0.5;
+  }
+
+  .btn-ghost {
+    @apply w-full text-slate-500 text-sm py-2 hover:text-slate-700 transition-colors;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 bg-slate-50 border-2 border-slate-100 rounded-xl text-sm resize-none outline-none focus:border-brand-500 focus:bg-brand-50 transition-all leading-relaxed;
+  }
+}
+
+@layer utilities {
+  .fade-up {
+    animation: fadeUp 0.3s ease both;
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .spin {
+    animation: spin 0.8s linear infinite;
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
