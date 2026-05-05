@@ -2,7 +2,7 @@
 
 Application web de triage médical permettant d'évaluer la gravité de symptômes et d'orienter l'utilisateur vers le bon niveau de soins.
 
-![MediGuide Preview](./docs/screenshots/01-langue.png)
+![Questionnaire](./docs/screenshots/02-questionnaire.png)
 
 ## Fonctionnalités
 
