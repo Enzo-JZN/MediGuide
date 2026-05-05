@@ -2,8 +2,6 @@
 
 Application web de triage médical permettant d'évaluer la gravité de symptômes et d'orienter l'utilisateur vers le bon niveau de soins.
 
-![Questionnaire](./docs/screenshots/02-questionnaire.png)
-
 ## Fonctionnalités
 
 - **Questionnaire structuré** - Questions adaptées selon la zone du corps touchée
